@@ -4,6 +4,7 @@ lazy val app = project
     organization := "com.github.alexarchambault.test",
     version := "0.1.0",
     scalaVersion := "2.12.8",
+    crossPaths := false,
     publishTo := Some("gh-release-packages" at "https://maven.pkg.github.com/alexarchambault"),
     homepage := Some(url("https://github.com/alexarchambault/test-gh-package-registry-scala-sbt")),
     licenses := Seq("Apache 2" -> url("http://www.apache.org/licenses/LICENSE-2.0.txt")),
