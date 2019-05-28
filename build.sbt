@@ -2,7 +2,7 @@
 lazy val app = project
   .settings(
     organization := "com.github.alexarchambault.test",
-    version := "0.1.1",
+    version := "0.1.2",
     scalaVersion := "2.12.8",
     crossPaths := false,
     publishTo := Some("gh-release-packages" at "https://maven.pkg.github.com/alexarchambault"),
